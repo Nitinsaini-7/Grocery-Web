@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div className=' relative -z-30'>
+    <div className=' relative '>
         <img src={assets.main_banner_bg} className=' w-full hidden md:block' alt="" />
         <img src={assets.main_banner_bg_sm} className=' w-full md:hidden' alt="" />
 
